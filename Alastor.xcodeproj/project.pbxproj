@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D6C370EC28C14F4F007A1130 /* AlastorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370EB28C14F4F007A1130 /* AlastorApp.swift */; };
-		D6C370EE28C14F4F007A1130 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370ED28C14F4F007A1130 /* ContentView.swift */; };
+		D6C370EE28C14F4F007A1130 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370ED28C14F4F007A1130 /* Home.swift */; };
 		D6C370F028C14F53007A1130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C370EF28C14F53007A1130 /* Assets.xcassets */; };
 		D6C370F328C14F53007A1130 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C370F228C14F53007A1130 /* Preview Assets.xcassets */; };
 		D6C370FD28C14F53007A1130 /* AlastorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370FC28C14F53007A1130 /* AlastorTests.swift */; };
 		D6C3710728C14F53007A1130 /* AlastorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3710628C14F53007A1130 /* AlastorUITests.swift */; };
 		D6C3710928C14F53007A1130 /* AlastorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3710828C14F53007A1130 /* AlastorUITestsLaunchTests.swift */; };
+		D6C3711728C1510F007A1130 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = D6C3711628C1510F007A1130 /* SwiftSoup */; };
+		D6C3711E28C15621007A1130 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3711D28C15621007A1130 /* SplashScreen.swift */; };
+		D6C3712028C15864007A1130 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3711F28C15864007A1130 /* Models.swift */; };
+		D6C3712228C16907007A1130 /* Pluto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3712128C16907007A1130 /* Pluto.swift */; };
+		D6C3712928C17962007A1130 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3712828C17962007A1130 /* DailyView.swift */; };
+		D6C3712B28C179FB007A1130 /* comMarketIndexes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3712A28C179FB007A1130 /* comMarketIndexes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		D6C370E828C14F4F007A1130 /* Alastor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alastor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C370EB28C14F4F007A1130 /* AlastorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlastorApp.swift; sourceTree = "<group>"; };
-		D6C370ED28C14F4F007A1130 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6C370ED28C14F4F007A1130 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D6C370EF28C14F53007A1130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C370F228C14F53007A1130 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6C370F828C14F53007A1130 /* AlastorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlastorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,11 @@
 		D6C3710228C14F53007A1130 /* AlastorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlastorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C3710628C14F53007A1130 /* AlastorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlastorUITests.swift; sourceTree = "<group>"; };
 		D6C3710828C14F53007A1130 /* AlastorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlastorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6C3711D28C15621007A1130 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		D6C3711F28C15864007A1130 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D6C3712128C16907007A1130 /* Pluto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pluto.swift; sourceTree = "<group>"; };
+		D6C3712828C17962007A1130 /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
+		D6C3712A28C179FB007A1130 /* comMarketIndexes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comMarketIndexes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C3711728C1510F007A1130 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				D6C370EB28C14F4F007A1130 /* AlastorApp.swift */,
-				D6C370ED28C14F4F007A1130 /* ContentView.swift */,
+				D6C3711D28C15621007A1130 /* SplashScreen.swift */,
+				D6C370ED28C14F4F007A1130 /* Home.swift */,
+				D6C3711828C15198007A1130 /* Services */,
+				D6C3711928C1519F007A1130 /* DataModel */,
+				D6C3711A28C151A5007A1130 /* Views */,
+				D6C3711C28C151B5007A1130 /* Components */,
 				D6C370EF28C14F53007A1130 /* Assets.xcassets */,
 				D6C370F128C14F53007A1130 /* Preview Content */,
 			);
@@ -127,6 +144,46 @@
 			path = AlastorUITests;
 			sourceTree = "<group>";
 		};
+		D6C3711828C15198007A1130 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3712128C16907007A1130 /* Pluto.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		D6C3711928C1519F007A1130 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3711F28C15864007A1130 /* Models.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		D6C3711A28C151A5007A1130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3712828C17962007A1130 /* DailyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6C3711C28C151B5007A1130 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3712628C178EC007A1130 /* DailyView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D6C3712628C178EC007A1130 /* DailyView */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3712A28C179FB007A1130 /* comMarketIndexes.swift */,
+			);
+			path = DailyView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +200,9 @@
 			dependencies = (
 			);
 			name = Alastor;
+			packageProductDependencies = (
+				D6C3711628C1510F007A1130 /* SwiftSoup */,
+			);
 			productName = Alastor;
 			productReference = D6C370E828C14F4F007A1130 /* Alastor.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +275,9 @@
 				Base,
 			);
 			mainGroup = D6C370DF28C14F4F007A1130;
+			packageReferences = (
+				D6C3711528C1510F007A1130 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = D6C370E928C14F4F007A1130 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C370EE28C14F4F007A1130 /* ContentView.swift in Sources */,
+				D6C3712928C17962007A1130 /* DailyView.swift in Sources */,
+				D6C3711E28C15621007A1130 /* SplashScreen.swift in Sources */,
+				D6C370EE28C14F4F007A1130 /* Home.swift in Sources */,
+				D6C3712228C16907007A1130 /* Pluto.swift in Sources */,
+				D6C3712B28C179FB007A1130 /* comMarketIndexes.swift in Sources */,
+				D6C3712028C15864007A1130 /* Models.swift in Sources */,
 				D6C370EC28C14F4F007A1130 /* AlastorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +651,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6C3711528C1510F007A1130 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6C3711628C1510F007A1130 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6C3711528C1510F007A1130 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6C370E028C14F4F007A1130 /* Project object */;
 }
