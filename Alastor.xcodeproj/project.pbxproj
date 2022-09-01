@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6C370EC28C14F4F007A1130 /* AlastorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370EB28C14F4F007A1130 /* AlastorApp.swift */; };
+		D6C370EE28C14F4F007A1130 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370ED28C14F4F007A1130 /* ContentView.swift */; };
+		D6C370F028C14F53007A1130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C370EF28C14F53007A1130 /* Assets.xcassets */; };
+		D6C370F328C14F53007A1130 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C370F228C14F53007A1130 /* Preview Assets.xcassets */; };
+		D6C370FD28C14F53007A1130 /* AlastorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370FC28C14F53007A1130 /* AlastorTests.swift */; };
+		D6C3710728C14F53007A1130 /* AlastorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3710628C14F53007A1130 /* AlastorUITests.swift */; };
+		D6C3710928C14F53007A1130 /* AlastorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3710828C14F53007A1130 /* AlastorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6C370F928C14F53007A1130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C370E028C14F4F007A1130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C370E728C14F4F007A1130;
+			remoteInfo = Alastor;
+		};
+		D6C3710328C14F53007A1130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C370E028C14F4F007A1130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C370E728C14F4F007A1130;
+			remoteInfo = Alastor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6C370E828C14F4F007A1130 /* Alastor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alastor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C370EB28C14F4F007A1130 /* AlastorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlastorApp.swift; sourceTree = "<group>"; };
+		D6C370ED28C14F4F007A1130 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6C370EF28C14F53007A1130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6C370F228C14F53007A1130 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6C370F828C14F53007A1130 /* AlastorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlastorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C370FC28C14F53007A1130 /* AlastorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlastorTests.swift; sourceTree = "<group>"; };
+		D6C3710228C14F53007A1130 /* AlastorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlastorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C3710628C14F53007A1130 /* AlastorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlastorUITests.swift; sourceTree = "<group>"; };
+		D6C3710828C14F53007A1130 /* AlastorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlastorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C370E528C14F4F007A1130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C370F528C14F53007A1130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C370FF28C14F53007A1130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6C370DF28C14F4F007A1130 = {
+			isa = PBXGroup;
+			children = (
+				D6C370EA28C14F4F007A1130 /* Alastor */,
+				D6C370FB28C14F53007A1130 /* AlastorTests */,
+				D6C3710528C14F53007A1130 /* AlastorUITests */,
+				D6C370E928C14F4F007A1130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C370E928C14F4F007A1130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C370E828C14F4F007A1130 /* Alastor.app */,
+				D6C370F828C14F53007A1130 /* AlastorTests.xctest */,
+				D6C3710228C14F53007A1130 /* AlastorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C370EA28C14F4F007A1130 /* Alastor */ = {
+			isa = PBXGroup;
+			children = (
+				D6C370EB28C14F4F007A1130 /* AlastorApp.swift */,
+				D6C370ED28C14F4F007A1130 /* ContentView.swift */,
+				D6C370EF28C14F53007A1130 /* Assets.xcassets */,
+				D6C370F128C14F53007A1130 /* Preview Content */,
+			);
+			path = Alastor;
+			sourceTree = "<group>";
+		};
+		D6C370F128C14F53007A1130 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6C370F228C14F53007A1130 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6C370FB28C14F53007A1130 /* AlastorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C370FC28C14F53007A1130 /* AlastorTests.swift */,
+			);
+			path = AlastorTests;
+			sourceTree = "<group>";
+		};
+		D6C3710528C14F53007A1130 /* AlastorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3710628C14F53007A1130 /* AlastorUITests.swift */,
+				D6C3710828C14F53007A1130 /* AlastorUITestsLaunchTests.swift */,
+			);
+			path = AlastorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C370E728C14F4F007A1130 /* Alastor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C3710C28C14F53007A1130 /* Build configuration list for PBXNativeTarget "Alastor" */;
+			buildPhases = (
+				D6C370E428C14F4F007A1130 /* Sources */,
+				D6C370E528C14F4F007A1130 /* Frameworks */,
+				D6C370E628C14F4F007A1130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alastor;
+			productName = Alastor;
+			productReference = D6C370E828C14F4F007A1130 /* Alastor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6C370F728C14F53007A1130 /* AlastorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C3710F28C14F53007A1130 /* Build configuration list for PBXNativeTarget "AlastorTests" */;
+			buildPhases = (
+				D6C370F428C14F53007A1130 /* Sources */,
+				D6C370F528C14F53007A1130 /* Frameworks */,
+				D6C370F628C14F53007A1130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C370FA28C14F53007A1130 /* PBXTargetDependency */,
+			);
+			name = AlastorTests;
+			productName = AlastorTests;
+			productReference = D6C370F828C14F53007A1130 /* AlastorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6C3710128C14F53007A1130 /* AlastorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C3711228C14F53007A1130 /* Build configuration list for PBXNativeTarget "AlastorUITests" */;
+			buildPhases = (
+				D6C370FE28C14F53007A1130 /* Sources */,
+				D6C370FF28C14F53007A1130 /* Frameworks */,
+				D6C3710028C14F53007A1130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C3710428C14F53007A1130 /* PBXTargetDependency */,
+			);
+			name = AlastorUITests;
+			productName = AlastorUITests;
+			productReference = D6C3710228C14F53007A1130 /* AlastorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C370E028C14F4F007A1130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D6C370E728C14F4F007A1130 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D6C370F728C14F53007A1130 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D6C370E728C14F4F007A1130;
+					};
+					D6C3710128C14F53007A1130 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D6C370E728C14F4F007A1130;
+					};
+				};
+			};
+			buildConfigurationList = D6C370E328C14F4F007A1130 /* Build configuration list for PBXProject "Alastor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C370DF28C14F4F007A1130;
+			productRefGroup = D6C370E928C14F4F007A1130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C370E728C14F4F007A1130 /* Alastor */,
+				D6C370F728C14F53007A1130 /* AlastorTests */,
+				D6C3710128C14F53007A1130 /* AlastorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C370E628C14F4F007A1130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C370F328C14F53007A1130 /* Preview Assets.xcassets in Resources */,
+				D6C370F028C14F53007A1130 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C370F628C14F53007A1130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C3710028C14F53007A1130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C370E428C14F4F007A1130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C370EE28C14F4F007A1130 /* ContentView.swift in Sources */,
+				D6C370EC28C14F4F007A1130 /* AlastorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C370F428C14F53007A1130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C370FD28C14F53007A1130 /* AlastorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C370FE28C14F53007A1130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C3710728C14F53007A1130 /* AlastorUITests.swift in Sources */,
+				D6C3710928C14F53007A1130 /* AlastorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6C370FA28C14F53007A1130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C370E728C14F4F007A1130 /* Alastor */;
+			targetProxy = D6C370F928C14F53007A1130 /* PBXContainerItemProxy */;
+		};
+		D6C3710428C14F53007A1130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C370E728C14F4F007A1130 /* Alastor */;
+			targetProxy = D6C3710328C14F53007A1130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6C3710A28C14F53007A1130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6C3710B28C14F53007A1130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C3710D28C14F53007A1130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alastor/Preview Content\"";
+				DEVELOPMENT_TEAM = MCC2B4P5MZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Copland.Alastor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6C3710E28C14F53007A1130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alastor/Preview Content\"";
+				DEVELOPMENT_TEAM = MCC2B4P5MZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Copland.Alastor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6C3711028C14F53007A1130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCC2B4P5MZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Copland.AlastorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alastor.app/Alastor";
+			};
+			name = Debug;
+		};
+		D6C3711128C14F53007A1130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCC2B4P5MZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Copland.AlastorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alastor.app/Alastor";
+			};
+			name = Release;
+		};
+		D6C3711328C14F53007A1130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCC2B4P5MZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Copland.AlastorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alastor;
+			};
+			name = Debug;
+		};
+		D6C3711428C14F53007A1130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCC2B4P5MZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Copland.AlastorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alastor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C370E328C14F4F007A1130 /* Build configuration list for PBXProject "Alastor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C3710A28C14F53007A1130 /* Debug */,
+				D6C3710B28C14F53007A1130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C3710C28C14F53007A1130 /* Build configuration list for PBXNativeTarget "Alastor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C3710D28C14F53007A1130 /* Debug */,
+				D6C3710E28C14F53007A1130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C3710F28C14F53007A1130 /* Build configuration list for PBXNativeTarget "AlastorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C3711028C14F53007A1130 /* Debug */,
+				D6C3711128C14F53007A1130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C3711228C14F53007A1130 /* Build configuration list for PBXNativeTarget "AlastorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C3711328C14F53007A1130 /* Debug */,
+				D6C3711428C14F53007A1130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C370E028C14F4F007A1130 /* Project object */;
+}
