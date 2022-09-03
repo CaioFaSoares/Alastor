@@ -15,14 +15,6 @@ struct comMarketIndexes: View {
     var body: some View {
         Section {
             HStack {
-                Text(ASCI.indexFullName)
-                    .fontWeight(.bold)
-                Spacer()
-                Text("\(ASCI.indexValue)%")
-                    .fontWeight(.bold)
-                    .foregroundColor(comMarketIndexes.indexValueColor(indexValue: ASCI.indexValue))
-            }
-            HStack {
                 Text(FNG.indexFullName)
                     .fontWeight(.bold)
                 Spacer()
@@ -30,9 +22,15 @@ struct comMarketIndexes: View {
                     .fontWeight(.bold)
                     .foregroundColor(comMarketIndexes.indexValueColor(indexValue: FNG.indexValue))
             }
-            
+            HStack {
+                Text(ASCI.indexFullName)
+                    .fontWeight(.bold)
+                Spacer()
+                Text("\(ASCI.indexValue)%")
+                    .fontWeight(.bold)
+                    .foregroundColor(comMarketIndexes.indexValueColor(indexValue: ASCI.indexValue))
+            }
         }
-        
     }
     
     static func indexValueColor(indexValue: String) -> Color {

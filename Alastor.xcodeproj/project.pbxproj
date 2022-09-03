@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D65EAD8A28C2E4EB0060330D /* TopCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EAD8928C2E4EB0060330D /* TopCoinsView.swift */; };
 		D6C370EC28C14F4F007A1130 /* AlastorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370EB28C14F4F007A1130 /* AlastorApp.swift */; };
 		D6C370EE28C14F4F007A1130 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370ED28C14F4F007A1130 /* Home.swift */; };
 		D6C370F028C14F53007A1130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C370EF28C14F53007A1130 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D65EAD8928C2E4EB0060330D /* TopCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinsView.swift; sourceTree = "<group>"; };
 		D6C370E828C14F4F007A1130 /* Alastor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alastor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C370EB28C14F4F007A1130 /* AlastorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlastorApp.swift; sourceTree = "<group>"; };
 		D6C370ED28C14F4F007A1130 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				D6C3712828C17962007A1130 /* DailyView.swift */,
+				D65EAD8928C2E4EB0060330D /* TopCoinsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				D6C3712B28C179FB007A1130 /* comMarketIndexes.swift in Sources */,
 				D6C3712028C15864007A1130 /* Models.swift in Sources */,
 				D6C370EC28C14F4F007A1130 /* AlastorApp.swift in Sources */,
+				D65EAD8A28C2E4EB0060330D /* TopCoinsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

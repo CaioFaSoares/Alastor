@@ -45,7 +45,7 @@ struct SplashScreen: View {
                 }
             }.ignoresSafeArea()
                 .onAppear(){
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.0){
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 3.0){
                         self.isActive = true
                     }
                 }

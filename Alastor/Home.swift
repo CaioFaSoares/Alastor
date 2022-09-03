@@ -21,6 +21,12 @@ struct HomeView: View {
                 Label("Daily View", systemImage: "calendar.day.timeline.leading")
             }
             
+            NavigationView{
+                TopCoinsView()
+            }.tabItem {
+                Label("Top Coins", systemImage: "bitcoinsign.circle")
+            }
+            
         }
     }
 }
