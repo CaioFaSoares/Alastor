@@ -12,6 +12,8 @@ struct HomeView: View {
     @Binding var ASCI: Index
     @Binding var FNG: Index
     
+    @Binding var coins: [Coin]
+    
     var body: some View {
         TabView() {
             
@@ -22,7 +24,7 @@ struct HomeView: View {
             }
             
             NavigationView{
-                TopCoinsView()
+                TopCoinsView(coins: $coins)
             }.tabItem {
                 Label("Top Coins", systemImage: "bitcoinsign.circle")
             }

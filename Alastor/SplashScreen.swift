@@ -12,13 +12,17 @@ struct SplashScreen: View {
     @Binding var ASCI: Index
     @Binding var FNG: Index
     
+    @Binding var coins: [Coin]
+    
     @State private var isActive = false
     
     @State private var index = [Index]()
     
+    
+    
     var body: some View {
         if isActive{
-            HomeView(ASCI: $ASCI, FNG: $FNG)
+            HomeView(ASCI: $ASCI, FNG: $FNG, coins: $coins)
         } else {
             ZStack {
                 Color.accentColor
@@ -40,6 +44,7 @@ struct SplashScreen: View {
                         Text("Developed   by")
                         Text("COPLaND")
                             .foregroundColor(Color.blue)
+                        
                     }.font(.system(size: 10))
                         .padding(.bottom, 20)
                 }

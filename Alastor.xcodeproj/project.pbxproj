@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D65EAD8A28C2E4EB0060330D /* TopCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EAD8928C2E4EB0060330D /* TopCoinsView.swift */; };
+		D65EAD8C28C518720060330D /* Coingecko.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EAD8B28C518720060330D /* Coingecko.swift */; };
+		D65EAD8E28C518AD0060330D /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EAD8D28C518AD0060330D /* Coin.swift */; };
+		D65EAD9028C519980060330D /* isCoinPositive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EAD8F28C519980060330D /* isCoinPositive.swift */; };
+		D65EAD9328C519EC0060330D /* NotFoundList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EAD9228C519EC0060330D /* NotFoundList.swift */; };
 		D6C370EC28C14F4F007A1130 /* AlastorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370EB28C14F4F007A1130 /* AlastorApp.swift */; };
 		D6C370EE28C14F4F007A1130 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C370ED28C14F4F007A1130 /* Home.swift */; };
 		D6C370F028C14F53007A1130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C370EF28C14F53007A1130 /* Assets.xcassets */; };
@@ -42,6 +46,10 @@
 
 /* Begin PBXFileReference section */
 		D65EAD8928C2E4EB0060330D /* TopCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinsView.swift; sourceTree = "<group>"; };
+		D65EAD8B28C518720060330D /* Coingecko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coingecko.swift; sourceTree = "<group>"; };
+		D65EAD8D28C518AD0060330D /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		D65EAD8F28C519980060330D /* isCoinPositive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isCoinPositive.swift; sourceTree = "<group>"; };
+		D65EAD9228C519EC0060330D /* NotFoundList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundList.swift; sourceTree = "<group>"; };
 		D6C370E828C14F4F007A1130 /* Alastor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alastor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C370EB28C14F4F007A1130 /* AlastorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlastorApp.swift; sourceTree = "<group>"; };
 		D6C370ED28C14F4F007A1130 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -85,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D65EAD9128C519CE0060330D /* TopCoinsComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D65EAD9228C519EC0060330D /* NotFoundList.swift */,
+			);
+			path = TopCoinsComponents;
+			sourceTree = "<group>";
+		};
 		D6C370DF28C14F4F007A1130 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				D6C3712128C16907007A1130 /* Pluto.swift */,
+				D65EAD8B28C518720060330D /* Coingecko.swift */,
+				D65EAD8F28C519980060330D /* isCoinPositive.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -157,6 +175,7 @@
 		D6C3711928C1519F007A1130 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				D65EAD8D28C518AD0060330D /* Coin.swift */,
 				D6C3711F28C15864007A1130 /* Models.swift */,
 			);
 			path = DataModel;
@@ -174,17 +193,18 @@
 		D6C3711C28C151B5007A1130 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D6C3712628C178EC007A1130 /* DailyView */,
+				D6C3712628C178EC007A1130 /* DailyComponents */,
+				D65EAD9128C519CE0060330D /* TopCoinsComponents */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		D6C3712628C178EC007A1130 /* DailyView */ = {
+		D6C3712628C178EC007A1130 /* DailyComponents */ = {
 			isa = PBXGroup;
 			children = (
 				D6C3712A28C179FB007A1130 /* comMarketIndexes.swift */,
 			);
-			path = DailyView;
+			path = DailyComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +343,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65EAD8C28C518720060330D /* Coingecko.swift in Sources */,
+				D65EAD9028C519980060330D /* isCoinPositive.swift in Sources */,
 				D6C3712928C17962007A1130 /* DailyView.swift in Sources */,
 				D6C3711E28C15621007A1130 /* SplashScreen.swift in Sources */,
 				D6C370EE28C14F4F007A1130 /* Home.swift in Sources */,
@@ -330,6 +352,8 @@
 				D6C3712B28C179FB007A1130 /* comMarketIndexes.swift in Sources */,
 				D6C3712028C15864007A1130 /* Models.swift in Sources */,
 				D6C370EC28C14F4F007A1130 /* AlastorApp.swift in Sources */,
+				D65EAD8E28C518AD0060330D /* Coin.swift in Sources */,
+				D65EAD9328C519EC0060330D /* NotFoundList.swift in Sources */,
 				D65EAD8A28C2E4EB0060330D /* TopCoinsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
