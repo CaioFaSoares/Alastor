@@ -10,6 +10,7 @@ import SwiftSoup
 
 class PlutoScraper {
     
+    //Scraping the Altcoin Season Index Website
     static func scrapeACSI() async -> Index {
         
         let ACSIURL: URL = URL(string: "https://www.blockchaincenter.net/en/altcoin-season-index/")!
@@ -36,6 +37,7 @@ class PlutoScraper {
         
     }
     
+    //Scraping the Fear and Greed Website
     static func scrapeFNG() async -> Index {
         
         let FNGURL: URL = URL(string: "https://alternative.me/crypto/fear-and-greed-index/")!

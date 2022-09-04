@@ -42,13 +42,13 @@ struct TopCoinsView: View {
                             }
     //                    com_AC_AllCoinsByMarketCap(coins: $searchedCoins)
                     } header: {
-                        Text("Rankeado por MarketCap")
+                        Text("Ranked by MarketCap")
                     } footer: {
-                        Text("Dados da Coingecko")
+                        Text("Taken from Coingecko")
                     }
                 }
             }
-            .navigationTitle("Top 20 Moedas")
+            .navigationTitle("Top 20 Coins")
             .navigationBarTitleDisplayMode(.large)
             .listStyle(.grouped)
             .searchable(text: $searchCoin, placement: .navigationBarDrawer(displayMode: .always))
